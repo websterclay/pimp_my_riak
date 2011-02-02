@@ -1,0 +1,4 @@
+deps/*
+rel/riak
+apps/riak_bling/ebin/*
+

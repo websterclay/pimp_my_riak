@@ -1,0 +1,12 @@
+{application, riak_bling,
+ [
+  {description, ""},
+  {vsn, "0.0.1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { riak_bling_app, []}},
+  {env, []}
+ ]}.

@@ -1,0 +1,20 @@
+                  Welcome to Riak (pimped).
+                    ====================
+Howto:
+
+1. Fork this repo.
+2. Git clone your fork.
+3. Add precommit, postcommit, map, and reduce functions to the appropriate 
+module in apps/riak_bling/src.
+4. 'make rel' or whatever.
+5. Run riak as normal from rel/riak/bin. Your functions will be available 
+via the module name: map_funs, reduce_funs, pre_funs, and post_funs.
+
+Notes:
+
+* Hooks can be installed/uninstalled using helpers in "hooks".
+* You can also add external dep OTP apps if you want to get froggy.
+* See README_RIAK and README_RIAK.org for working with Riak.
+* Example funs stolen and twisted from riak_function_contrib.
+* Let me know if there are any heinous license violations within.
+* Please be nice this is my first public Erlang project.
